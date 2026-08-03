@@ -4,6 +4,9 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+* p{
+    color: #474747;
+}
 
 img{
     max-width: 100%;
@@ -60,6 +63,7 @@ ul {
 
 ul li a {
     text-decoration: none;
+    color: #474747;
 }
 
 .logo {
