@@ -140,6 +140,7 @@ ul li a {
 }
 
 .what-i-do-card-container .what-i-do-card{
+    background-color: #fff8f3;
     border: 2px solid #fd6e0a;
     padding: 8px;
     border-radius: 10px;
@@ -190,3 +191,38 @@ ul li a {
 .box-6{
     grid-area: six;
 }
+
+/* Footer */
+
+footer{
+    text-align: center;
+    margin-top: 100px !important;
+    /* margin-bottom: 300px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #fff8f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer form{
+    padding: 20px;
+}
+.footer-left p{
+    margin: 10px 0;
+}
+footer form input, footer form textarea {
+    border: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+/* .footer-icon-parent{
+    color: #fd6e0a;
+    font-size: 19px;
+} */
